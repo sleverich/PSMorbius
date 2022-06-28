@@ -1,6 +1,6 @@
 $script:morbius = [PSCustomObject]@{
-    started_morbing = $null
-    morb = 0
+    'started_morbing' = $null
+    'morb' = 0
 }
 
 function Test-Morbing () {
@@ -30,7 +30,7 @@ function Get-MorbingTime () {
         return (Get-Date) - $script:morbius.started_morbing
     }
     else {
-        throws "Not currently morbing! Use Start-Morbing to begin morbing."
+        throw "Not currently morbing! Use Start-Morbing to begin morbing."
     }
 }
 
