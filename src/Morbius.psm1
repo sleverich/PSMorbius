@@ -47,7 +47,8 @@ function Morb-Out {
             "Morb no more.",
             "This is where the morb ends.",
             "Stop the morb.",
-            "Please stop morbing."
+            "Please stop morbing.",
+            "Morbn't."
         )
     }
     Process {
